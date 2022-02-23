@@ -1,13 +1,16 @@
 package bankguru.user;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class user_01_new_customer {
+    WebDriver driver;
 
     @BeforeClass
     public void beforeClass(){
+        driver.get("https://google.com.vn");
 
     }
 
